@@ -9,8 +9,8 @@ namespace Identity.Reconcilation.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
-        public string PhoneNumber { get; set; }
-        public string Email { get; set; }
+        public string? PhoneNumber { get; set; }
+        public string? Email { get; set; }
         public int? LinkedId { get; set; }
         public string LinkPrecedence { get; set; }
         public DateTime CreatedAt { get; set; }

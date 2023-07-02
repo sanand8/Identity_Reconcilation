@@ -1,3 +1,4 @@
+using Identity.Reconcilation.Data;
 using Identity.Reconcilation.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +11,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//Inject the dependencies here 
+builder.Services.AddScoped<IConsolidatedContact, ConsolidatedContact>();
 
 var app = builder.Build();
 
