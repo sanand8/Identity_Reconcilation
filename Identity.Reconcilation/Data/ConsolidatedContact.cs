@@ -20,7 +20,7 @@ namespace Identity.Reconcilation.Data
             {
                 responseData.primaryContatctId = data.Id;
                 responseData.emails = new string[] { data.Email };
-                responseData.phoneNumbers = new string[] { data.PhoneNumber };
+                responseData.phoneNumbers = new int[] { (int)data.PhoneNumber };
                 responseData.secondaryContactIds = null;
             }
             else
@@ -36,7 +36,7 @@ namespace Identity.Reconcilation.Data
                         responseData.secondaryContactIds.Append(item.Id);
                     }
                     responseData.emails.Append(item.Email);
-                    responseData.phoneNumbers.Append(item.PhoneNumber);
+                    responseData.phoneNumbers.Append((int)item.PhoneNumber);
                 }
             }
             return responseData;

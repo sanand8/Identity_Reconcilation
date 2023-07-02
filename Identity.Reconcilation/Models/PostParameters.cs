@@ -3,6 +3,6 @@
     public class PostParameters
     {
         public string email { get; set; }
-        public string phoneNumber { get; set; }
+        public int phoneNumber { get; set; }
     }
 }
