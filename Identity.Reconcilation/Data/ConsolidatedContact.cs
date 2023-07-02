@@ -23,6 +23,22 @@ namespace Identity.Reconcilation.Data
                 responseData.phoneNumbers = new string[] { data.PhoneNumber };
                 responseData.secondaryContactIds = null;
             }
+            else
+            {
+                foreach(var item in result)
+                {
+                    if(item.LinkPrecedence == "primary")
+                    {
+                        responseData.primaryContatctId = item.Id;
+                    }
+                    else
+                    {
+                        responseData.secondaryContactIds.Append(item.Id);
+                    }
+                    responseData.emails.Append(item.Email);
+                    responseData.phoneNumbers.Append(item.PhoneNumber);
+                }
+            }
             return responseData;
         }
     }
