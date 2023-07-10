@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jT6a+LcaxlD/LM1NDxdP1vIB913Xh9wKhqQG4FVS2CoqtENlm946eFtb1l1ANEcPUZu0lEpfwn0v3HgUVfbsVA==",
+  "dgSpecHash": "dxxf9+DhK+B1tSnqXfQURd/A1Uc+BsTmPKAfhtPKlLts0PhM211bDpDae1+iJxB0RBczn/sNYIMRclt1k2hjCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\shuanand\\source\\repos\\Identity.Reconcilation\\Identity.Reconcilation\\Identity.Reconcilation.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\shuanand\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\shuanand\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\shuanand\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\shuanand\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\shuanand\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\shuanand\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\shuanand\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",

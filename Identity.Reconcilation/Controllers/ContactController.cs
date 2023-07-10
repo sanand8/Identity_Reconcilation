@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Identity.Reconcilation.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/identify")]
     [ApiController]
     public class ContactController : ControllerBase
     {
